@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/primaryColor">
+
+    <TextView
+        android:text="@string/title_nasa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="15sp"
+        style="@style/TitleText"/>
+
+    <ImageView
+        android:src="@drawable/ic_nasa_planet"
+        android:layout_width="35dp"
+        android:layout_height="35dp"/>
+
+</LinearLayout>
