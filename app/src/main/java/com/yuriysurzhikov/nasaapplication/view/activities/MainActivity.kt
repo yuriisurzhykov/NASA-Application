@@ -6,8 +6,10 @@ import com.yuriysurzhikov.nasaapplication.R
 import com.yuriysurzhikov.nasaapplication.view.adapters.MainPagerAdapter
 import com.yuriysurzhikov.nasaapplication.view.fragments.AsteroidsFragment
 import com.yuriysurzhikov.nasaapplication.view.fragments.DailyPostFragment
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.activity_main.*
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
